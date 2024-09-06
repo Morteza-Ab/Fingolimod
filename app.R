@@ -1,28 +1,30 @@
-library(shiny)
 library(DESeq2)
 library(readxl)
 library(dplyr)
 library(pheatmap)
 library(data.table)
 library(ggplot2)
+library(openxlsx) # not needed here but kept for other analysis
 library(plotly)
-library(htmlwidgets)
 library(RColorBrewer) 
 library(ggrepel)
 library(tidyverse)
 library(reshape2)
+library(shiny)
 library(DOSE)
 library(clusterProfiler)
 library(org.Hs.eg.db)
 library(enrichplot)
+#library(pathfindR)
 library(enrichR)
 library(biomaRt)
 library(RWeka)
 library(mice)
 library(Hmisc)
 library(VIM)
-library(UpSetR)
-library(writexl)
+library(readxl)
+library(pheatmap)
+library(htmlwidgets)
 
 #setwd("/Users/mortezaabyadeh/Desktop/senescence omics data/used for app")
 
@@ -609,11 +611,6 @@ BP_maker_up <- function(df){
 
 
 ##################################### App  ####################################
-
-
-
-
-
 
 
 
